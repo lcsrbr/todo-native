@@ -27,12 +27,12 @@ const TextInputExample = () => {
     <View style={styles.container}>
       <ScrollView style={styles.body}>
         <Text style={styles.title}> to do</Text>
-        <Text style={styles.info}>Olá! Este é meu primeiro projeto em React Native. Qualquer sugestão pode ser enviada a partir do link no final da página :)</Text>
+        <Text style={styles.info}>Hi! This is my first project in React Native. Any questions or suggestions, my contacts are in the link at the end of the page :) </Text>
         <TextInput
           style={styles.input}
           onChangeText={onChangeText}
           value={text}
-          placeholder="useless placeholder"
+          placeholder="type here"
           keyboardType="text"
           enablesReturnKeyAutomatically={false}
         />
